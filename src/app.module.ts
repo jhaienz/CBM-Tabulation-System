@@ -4,6 +4,7 @@ import config from 'config/config';
 import { JwtModule } from '@nestjs/jwt';
 import { AdminModule } from './admin/admin.module';
 import { MongooseModule } from '@nestjs/mongoose';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { MongooseModule } from '@nestjs/mongoose';
       }),
     }),
     AdminModule,
+    AuthModule,
   ],
   controllers: [],
   providers: [],
