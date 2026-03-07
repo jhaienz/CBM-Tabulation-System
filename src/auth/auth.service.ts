@@ -1,5 +1,5 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common';
-import { CreateAdminDto } from 'src/admin/dto/create-admin-dto';
+import { CreateAdminDto } from 'src/admin/dto/create.admin.dto';
 import * as bcrypt from 'bcrypt';
 import { Admin } from 'src/admin/schema/admin.schema';
 import { Model } from 'mongoose';

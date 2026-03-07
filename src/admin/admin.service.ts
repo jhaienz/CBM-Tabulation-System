@@ -3,7 +3,7 @@ import { Admin, AdminDocument } from './schema/admin.schema';
 import * as bcrypt from 'bcrypt';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { CreateAdminDto } from './dto/create-admin-dto';
+import { CreateAdminDto } from './dto/create.admin.dto';
 
 @Injectable()
 export class AdminService {
