@@ -6,6 +6,7 @@ import { AdminModule } from './admin/admin.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AuthModule } from './auth/auth.module';
 import { JudgeModule } from './judge/judge.module';
+import { EventModule } from './event/event.module';
 
 @Module({
   imports: [
@@ -32,6 +33,7 @@ import { JudgeModule } from './judge/judge.module';
     AdminModule,
     AuthModule,
     JudgeModule,
+    EventModule,
   ],
   controllers: [],
   providers: [],
